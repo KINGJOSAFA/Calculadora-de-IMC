@@ -1,9 +1,9 @@
-Body {
+body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
 
-	background-image: ulr("img/fundodesktop.webp");
+	background-image: url("img/fundodesktop.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
