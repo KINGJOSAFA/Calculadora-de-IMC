@@ -19,4 +19,41 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	position: relative;
+	top: 50px;
+	left: 60px;
+
+}
+
+.boasvindas {
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	font-family: Consolas;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.dados {
+	position: absolute;
+	top: 50px;
+	right: 290px;
+	font-size: 100px;
+	font-family: freestyle script;
+	font-weight: normal;	
+}
+
+.linha {
+	position: absolute;
+	border: 3px solid black;
+	top: 150px;
+	width: 520px;
+}
+
+.mensage {
+	position: absolute;
+	right: 290px;
+	top: 300px;
+	font-size: 20px;
 }
