@@ -118,3 +118,16 @@ body {
 	border: 3px solid black;
 	border-radius: 5px;
 }
+.resultado {
+	position: absolute;
+	top: 500px;
+	right: 450px;
+	background-color: transparent;
+	border: 3px solid black;
+	border-radius: 5px;
+	width: 320px;
+	height: 200px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Consolas;
+}
