@@ -1,9 +1,9 @@
 console.log("JS conectado");
 
-const inputPeso = document.querySelector('input[name="peso"]');
-const inputAltura = document.querySelector('input[name="altura"]');
-const button = document.querySelector('button');
-const resultadoDiv = document.querySelector('.resultado')
+const form = document.querySelector('#form-imc')
+const inputPeso = document.querySelector('#peso');
+const inputAltura = document.querySelector('#altura');
+const resultadoDiv = document.querySelector('.resultado');
 
 function calcularIMC() {
 	const peso = Number(inputPeso.value);
@@ -17,5 +17,8 @@ function calcularIMC() {
 	}
 }
 
-button.addEventListener('click', calcularIMC);
+form.addEventListener('submit', function(event){
+	event.preventDefault();
+	calcularIMC();
+});
 
